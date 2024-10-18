@@ -1,10 +1,10 @@
 package ws
 
 import (
-	cache "aiosystem-backend/pkg/ws/treeCache"
 	"encoding/json"
 	"log"
 	"strconv"
+	cache "ws/treeCache"
 
 	"github.com/gorilla/websocket"
 )

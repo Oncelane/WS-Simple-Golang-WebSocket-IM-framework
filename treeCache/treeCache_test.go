@@ -1,9 +1,9 @@
 package treeCache_test
 
 import (
-	"aiosystem-backend/pkg/ws/treeCache"
 	"log"
 	"testing"
+	"ws/treeCache"
 )
 
 func TestDestroy(t *testing.T) {

@@ -1,12 +1,12 @@
 package ws
 
 import (
-	cache "aiosystem-backend/pkg/ws/treeCache"
 	"log"
 	"net/http"
 	"runtime"
 	"sync"
 	"unsafe"
+	cache "ws/treeCache"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/websocket"

@@ -1,8 +1,8 @@
 package example_test
 
 import (
-	"aiosystem-backend/pkg/ws"
 	"testing"
+	"ws"
 
 	"github.com/gin-gonic/gin"
 )
